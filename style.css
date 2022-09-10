@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+   /* outline: 1px solid white;*/
+}
+
+body{
+    background-color: #1a1a1a;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navigation{
+    height: 100px;
+    width:calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: calc(100% - 500px) ;
+    font-size: large;
+    padding: 0 15px;
+}
+
+.contact-us{
+    border: none;
+    font-size: large;
+    background-color: #9cfceb;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px black;
+}
+
+.body{
+    height: calc(100vh - 100px);
+    width:calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+
+}
+.image,.about_text{
+    height: 100%;
+    width: 100%;
+}
+.image{
+    /* background-color: rosybrown; */
+}
+.about_text{
+    padding-top: 40px;
+    padding-left: 40pt;
+}
+.Download-cv{
+    border: solid;
+    font-size: large;
+    color: cadetblue;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 2px;
+   
+}
+.name{
+    font-size: 20px;
+    color: cadetblue;
+}
+.txt1{
+    font-size: 50px;
+    color: rosybrown;
+}
+.txt2{
+    font-size: 50px;
+    color: cadetblue;
+}
+.txt3{
+    font-size: 15px;
+    color: rosybrown;
+}
